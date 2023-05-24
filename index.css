@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@200;300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-dark {
+  background-color: #141414;
+  padding: 0.5rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+.header {
+  height: 50vh;
+  background: url("./harley-davidson-eeTJKC_wz34-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.91;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.heading-wrapper {
+  background: #00051f;
+  margin-top: -2rem;
+  color: white;
+  padding: 0.5rem;
+  position: relative;
+  text-align: center;
+  z-index: 9;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 1.7rem;
+  color: #fff;
+  /* margin-top: 20px; */
+  /* background: #fff;
+  border: 1px solid #010729;
+  padding: 0.3rem;
+  border-radius: 10px; */
+}
+
+.nav-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  /* position: fixed; */
+}
+
+ul li {
+  list-style: none;
+}
+
+.nav-items {
+  float: right;
+  /* margin-top: 1rem; */
+}
+
+a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-item {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 1.2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.header-content {
+  /* position: absolute; */
+  text-align: center;
+  /* top: 55%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: black;
+}
+.bike-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 2em;
+}
+.bike-type {
+  /* display: inline-block; */
+  text-align: center;
+  max-width: 300px;
+
+  /* position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%); */
+  /* opacity: 7; */
+}
+.bike-type > img {
+  aspect-ratio: 35/25;
+  height: auto;
+  width: 300px;
+  flex: 1;
+  /* max-width: 300px; */
+}
+
+.checked {
+  color: #ff9529;
+}
+
+.description {
+  /* width: 60%; */
+  /* border: 2px solid black; */
+  /* margin-left: 110px; */
+  /* font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;  
+  text-overflow: ellipsis; */
+  /* height: 50%; */
+  display: -webkit-box;
+  max-width: 400px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* .description:hover {
+  overflow: visible;
+  white-space: normal;
+} */
+
+/* //////////////////////// Contact Us //////////////// */
+
+/* .shop-address {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  height: 760px;
+  background: #fff;
+  border: 2px solid #293438;
+  border-radius: 15px;
+  width: 49%;
+  float: left;
+  padding: 2rem;
+  color: #fff;
+  align-items: center;
+  transform: translate(60%);
+} */
+
+/* .empty {
+  margin-top: 90px;
+} */
+
+/* .location {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  margin-left: 10px;
+} */
+
+/* .location1 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+} */
+
+/* .location2 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+} */
+
+.mg-heading {
+  /* display: flex  */
+  margin-left: 15px;
+}
+
+/* .address-group {
+  letter-spacing: 0.2em;
+  margin-top: 0px;
+} */
+
+/* .margin-top {
+  margin-top: 15px;
+} */
+
+.about-page {
+  background: url("./sportsbike.jpg");
+  height: 700px;
+  color: white;
+  opacity: 1;
+}
+
+.abt {
+  /* border: 2px solid red; */
+  font-size: 20px;
+  transform: translate(40%, 70%);
+  width: 50%;
+  letter-spacing: 0.2;
+}
+
+.abt-us {
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
+
+/* .contact-page {
+  background: url("./about3.jpg");
+  height: 89.4vh;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  opacity: 0.94;
+} */
+
+/* /////////////////// contact us //////////////////  */
+
+body .back {
+  margin: -29px;
+  background: url(./about3.jpg);
+  height: 89.4vh;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  opacity: 0.94;
+}
+
+.cnt-us {
+  width: 390px;
+  height: max-content;
+  /* height: 440px; */
+  /* background: #e6e6e6; */
+  border-radius: 8px;
+  /* box-shadow: 0 0 40px -10px #000; */
+  margin: calc(48vh - 220px);
+  margin-top: 30px;
+  padding: 60px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.new-cnt {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+input:focus {
+  border-bottom: 2px solid #fff;
+}
+
+.p-tag:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.new-btn {
+  /* float: right; */
+  padding: 8px 12px;
+
+  margin: 27px 0 0;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #78788c;
+  border-radius: 6px;
+  background: #5a5a6e;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.new-btn:hover {
+  background: #78788c;
+  color: #fff;
+}
+
+.new-div {
+  /* position: absolute; */
+  margin-top: 20px;
+  bottom: -15px;
+  right: -20px;
+  background: #6b6b75;
+  color: #fff;
+  width: 100%;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000;
+}
+
+.new-span {
+  margin: 0 5px 0 15px;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
+}
